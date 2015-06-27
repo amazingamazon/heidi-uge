@@ -1,0 +1,3 @@
+This is a new file created by the touch command. It is unix. Git commands start with Git.
+
+Git typically uses hyphens, whereas unix uses underscores, or "low dashes."
