@@ -37,7 +37,7 @@ ls .
 # This lists files in the home directory in reverse order and by which was last modified.
 ls -rt ~
 
-# This lists
+# This lists files in the root directory in reverse order and by which was last modified.
 ls -rt /
 ls -rt /~
 
@@ -47,10 +47,11 @@ ls /
 # This lists items in the home directory.
 ls ~
 
-ls -
 fonts/
 felicity/
 Downloads/
+
+# This tells us where we are now.
 pwd
 
 # This goes up three levels from where you are now. It is relative.
