@@ -1,0 +1,314 @@
+ls -l moving_around.txt
+
+# This appends the history to the current moving_around file. It will not delete the already-existing file.
+history >> moving_around.txt
+
+ls
+ls unicorn_cupcakes.txt
+ls moving_around.txt
+ls -lt
+ls -t
+ls -l
+
+# This puts the history into a NEW moving_around file. It will create the file since it does not yet exist.
+history > moving_around.txt
+
+# This clears the screen. History is saved.
+clear
+
+# This brought me back to home directory.
+cd
+
+# This is an example of piping.
+history | less
+
+history -r
+history
+git --help
+git fork
+git clone
+
+# This didn't work. ... is not a valid directory. Use . for current or .. to go up one level.
+cd ...
+
+# This lists out items in the current directory.
+ls .
+
+# This lists files in the home directory in reverse order and by which was last modified.
+ls -rt ~
+
+# This lists
+ls -rt /
+ls -rt /~
+
+# This lists items in the root directory.
+ls /
+
+# This lists items in the home directory.
+ls ~
+
+ls -
+fonts/
+felicity/
+Downloads/
+pwd
+
+# This goes up three levels from where you are now. It is relative.
+../../..
+
+..
+cd assets/
+cd images/
+cd ima
+Downloads/felicity/
+DeathtoStock_Clementine_Free/
+cd Documents/
+man ls
+ls -s
+ls -la
+ls -a
+man
+ls -rt
+ls -r
+cd /
+git doctor
+git help -g
+git log
+git status
+git update
+brew install git
+brew install fish
+git
+brew doctor
+brew update
+ls -G
+uname
+git config
+git confir
+cd ..
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email "heidi.lowry@gmail.com"
+git config --global user.name "Heidi Lowry"
+git --version
+echo $PATH
+subl /etc/paths
+subl /etc/path
+echo $EDITOR
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+fish_up
+curl -fsSL http://git.io/beJs | ruby
+curl - fsSL http://git.io/beJs | ruby
+rails server
+bundle install
+cd job_board
+cd job_project
+sublime job_board
+open job_board
+open
+rails new job_board -T --skip-turbolinks
+cd railsbridge
+mkdir railsbridge
+rake db:migrate
+rake db:create
+rake db:drop
+bundle show [better_errors]
+rails g model job
+rails generate controller jobs
+cd job_board/
+cd railsbridge/
+irb
+exit
+rails -v
+bundle -v
+ruby -v
+rvm -v
+heroku open
+heroku info
+heroku run rake db:migrate
+git push heroku master
+git commit -m "Updates for heroku deployment"
+git add .
+bundle install --without production
+git remote show
+heroku create
+git commit -m "initial commit"
+git add -A
+git init
+rails generate scaffold drink name:string temperature:integer
+cd test_app
+rails new test_app
+cd ~
+heroku keys:add
+heroku version
+~/.ssh/
+ssh-add ~/.ssh/id_rsa
+ssh-keygen -C heidi.lowry@gmail.com -t rsa
+ls ~/.ssh/id_rsa
+git config --global color.ui auto
+git config --get user.email
+git config --get user.name
+git config --global user.name "Heidi"
+gcc --version
+which rails
+which ruby
+gem install rails
+rvm --default use 2.2
+rvm use 2.2
+rvm install 2.2
+rvm autolibs homebrew
+type rvm | head -1
+curl -L get.rvm.io | bash -s stable
+brew -v
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL http://raw.githubusercontent.com/Homebrew/install/master/install)"
+gcc ==version
+grep "market farmers-markets.csv >> market.csv
+grep "market" input.csv >> farmers-markets.csv
+ls -l moving_around.txt
+history > moving_around.txt
+history >> moving_around.txt
+ls
+ls unicorn_cupcakes.txt
+ls moving_around.txt
+ls -lt
+ls -t
+ls -l
+clear
+cd
+history | less
+history -r
+history
+git --help
+git fork
+git clone
+cd ...
+...
+ls .
+ls -rt ~
+ls -rt /
+ls -rt /~
+ls ~ -rt
+ls /
+ls ~
+ls -
+fonts/
+felicity/
+Downloads/
+pwd
+../../..
+..
+cd assets/
+cd images/
+cd ima
+Downloads/felicity/
+DeathtoStock_Clementine_Free/
+cd Documents/
+man ls
+ls -s
+ls -la
+ls -a
+man
+ls -rt
+ls -r
+cd /
+git doctor
+git help -g
+git log
+git status
+git update
+brew install git
+brew install fish
+git
+brew doctor
+brew update
+ls -G
+uname
+git config
+git confir
+cd ..
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh
+git config --global user.email "heidi.lowry@gmail.com"
+git config --global user.name "Heidi Lowry"
+git --version
+echo $PATH
+subl /etc/paths
+subl /etc/path
+echo $EDITOR
+subl ~/.config/fish/config.fish
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fish
+fish_update_completions
+fish_up
+curl -fsSL http://git.io/beJs | ruby
+curl - fsSL http://git.io/beJs | ruby
+rails server
+bundle install
+cd job_board
+cd job_project
+sublime job_board
+open job_board
+open
+rails new job_board -T --skip-turbolinks
+cd railsbridge
+mkdir railsbridge
+rake db:migrate
+rake db:create
+rake db:drop
+bundle show [better_errors]
+rails g model job
+rails generate controller jobs
+cd job_board/
+cd railsbridge/
+irb
+exit
+rails -v
+bundle -v
+ruby -v
+rvm -v
+heroku open
+heroku info
+heroku run rake db:migrate
+git push heroku master
+git commit -m "Updates for heroku deployment"
+git add .
+bundle install --without production
+git remote show
+heroku create
+git commit -m "initial commit"
+git add -A
+git init
+rails generate scaffold drink name:string temperature:integer
+cd test_app
+rails new test_app
+cd ~
+heroku keys:add
+heroku version
+~/.ssh/
+ssh-add ~/.ssh/id_rsa
+ssh-keygen -C heidi.lowry@gmail.com -t rsa
+ls ~/.ssh/id_rsa
+git config --global color.ui auto
+git config --get user.email
+git config --get user.name
+git config --global user.name "Heidi"
+gcc --version
+which rails
+which ruby
+gem install rails
+rvm --default use 2.2
+rvm use 2.2
+rvm install 2.2
+rvm autolibs homebrew
+type rvm | head -1
+curl -L get.rvm.io | bash -s stable
+brew -v
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+ruby -e "$(curl -fsSL http://raw.githubusercontent.com/Homebrew/install/master/install)"
+gcc ==version
+grep "market farmers-markets.csv >> market.csv
+grep "market" input.csv >> farmers-markets.csv
