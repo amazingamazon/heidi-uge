@@ -1,3 +1,7 @@
 This is a new file created by the touch command. It is a UNIX command. Git commands start with git.
 
 Git typically uses hyphens, whereas UNIX uses underscores, or "low dashes."
+
+The underscores or low dashes are used in place of spaces.
+
+For example, instead of File Name, we would write File_Name.
